@@ -16,7 +16,7 @@ app.use(
   })
 );
 
-mongoose.connect("mongodb://127.0.0.1:27017/APPLICATIONTRACKINGSOFTWARE").then(()=>{
+mongoose.connect("mongodb://127.0.0.1:27017/Panchakarma").then(()=>{
     console.log("Mongodb connected")
 });
 app.use('/',main)

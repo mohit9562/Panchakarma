@@ -97,6 +97,14 @@ const Navbar = () => {
               Dashboard
             </Link>
             <Link
+              to="/register-patient"
+              className="flex items-center px-4 py-3 text-gray-700 hover:bg-indigo-50 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <FaChartLine className="mr-3 text-indigo-500" />
+              Register
+            </Link>
+            <Link
               to="/settings"
               className="flex items-center px-4 py-3 text-gray-700 hover:bg-indigo-50 transition-colors"
               onClick={() => setIsMenuOpen(false)}

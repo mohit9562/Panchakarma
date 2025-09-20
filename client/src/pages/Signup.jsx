@@ -99,10 +99,10 @@ const SignupPage = () => {
             {/* Username */}
             <div>
               <label
-                htmlFor="username"
+                htmlFor="name"
                 className="block text-sm font-medium text-gray-700"
               >
-                Username
+                Name
               </label>
               <div className="mt-1 relative rounded-md shadow-sm">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -123,9 +123,9 @@ const SignupPage = () => {
                 </div>
                 <input
                   type="text"
-                  id="username"
-                  name="username"
-                  value={formData.username}
+                  id="name"
+                  name="name"
+                  value={formData.name}
                   onChange={handleChange}
                   className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 py-3 border-gray-300 rounded-md"
                   placeholder="john_doe9562"
